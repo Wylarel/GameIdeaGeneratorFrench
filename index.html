@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-		<link rel="icon" href="../favicon.ico" type="image/x-icon" />
+		<link rel="icon" href="ressources/favicon.png"/>
 		<link rel="stylesheet" href="stylesheet.css">
+		<title>Générateur d'idées de jeux-vidéo (Français)</title>
 		<script src="data.js"></script>
 		<script src="generator.js"></script>
 	</head>
 	<body>
-		<!-- 'generate' button -->
-		<button class="button" onclick="generate()">Générer une idée</button>
-
-		<!-- generated idea text -->
 		<div class = "prompt" id = "content">
 			<p>. . .</p>
 		</div>
+		<button class="button" onclick="generate()">Générer une idée</button>
 
-		<!-- yt channel link -->
 		<div class = "social">
-			<a target="_blank" href="https://www.youtube.com/c/SebastianLague"><img src="Resources/ytbanner.png" width="200" height="50" title="YouTube channel" alt="YouTube channel"></a>
+			<p>Original:</p>
+			<a target="_blank" href="https://www.youtube.com/c/SebastianLague"><img src="ressources/sebastianlaguebanner.png" width="200" height="50" title="Sebastien Lague (Chaîne Youtube)" alt="Sebastien Lague (Chaîne Youtube)"></a>
+			<p><img class="lang-flag" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/google/241/flag-france_1f1eb-1f1f7.png" alt=""> Traduction:</p>
+			<a target="_blank" href="https://github.com/Wylarel"><img src="ressources/wylarelbanner.png" width="200" height="50" title="Wylarel" alt="Wylarel"></a>
 		</div>
 	</body>
 </html>

@@ -1,4 +1,9 @@
- @font-face { font-family: opensans; src: url('Resources/OpenSans-Regular.ttf');}
+ @font-face { font-family: opensans; src: url('ressources/OpenSans-Regular.ttf');}
+
+* {
+	font-family: opensans;
+	color: #fff;
+}
 
 body {
 	background-color: #222222;
@@ -14,14 +19,17 @@ body {
 	user-select: none; /* Chrome, Opera and Firefox */
 }
 
+.lang-flag {
+	height: 17px;
+	transform: translateY(2px);
+}
+
 .prompt {
-	font-family: opensans;
-	color: white;
 	text-align: center;
 	font-size:25px;
 
 	position: fixed;
-	width: 90%;
+	width: 60%;
 	top: 40%;
 	left: 50%;
 	transform: translate(-50%, -50%);
@@ -31,7 +39,6 @@ body {
 .button {
 	background-color: #4CAFFF;
 	
-	font-family: opensans;
 	text-align: center;
 	font-size: 25px;
 	padding: 10px 0px;
@@ -43,7 +50,7 @@ body {
 
 	position:fixed;
 	width:50%;
-	bottom : 10%;
+	bottom : 30%;
 	left : 25%;
 
 	/* Disable text selection: https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting */
