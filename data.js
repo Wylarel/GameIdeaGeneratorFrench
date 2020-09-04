@@ -1,31 +1,27 @@
 category_names = [
-'template',
-'genre',
-'genre_modifier',
-'perspective',
-'group_name',
-'character',
-'character_description',
-'character_description_post',
-'goal_prefix',
-'goal',
-'setting',
-'setting_description',
-'theme',
-'mood',
-'wildcard'
+    'template',
+    'genre',
+    'genre_modifier',
+    'perspective',
+    'group_name',
+    'character',
+    'character_description',
+    'character_description_post',
+    'goal_prefix',
+    'goal',
+    'setting',
+    'setting_description',
+    'theme',
+    'mood',
+    'wildcard'
 ];
-
 data = `
 ----------------- Notes ----------------- 
 • Categories are defined by #categoryname: ... #end
 • <a> will be replaced with a/an depending on context
 • @name@ will be replaced with a call to the corresponding generate function
 • Some generate functions also accept parameters: @name:comma,separated,parameters@
-
-
 ----------------- TEMPLATE ----------------- 
-
 #template:
 <a> @mood@ @genre@ game about @theme@ and @theme@, @wildcard@
 <a> @mood@ @genre@ game @wildcard@ where you play as @character@ @goal@
@@ -37,7 +33,6 @@ data = `
 <a> @mood@ @genre@ game @wildcard:always@
 <a> @mood@ [mix between, mashup of, blend of] the @genre:nomods@ and @genre:nomods@ game genres @wildcard:always@
 #end
-
 ----------------- GENRE (a ... game) ----------------- 
 #genre:
 platformeur
@@ -67,7 +62,6 @@ jeu de course de [bateau, voiture, kart, vélo, helicoptère]
 simulation de [parc à thème, business, gestion de ville, ferme]
 [pèche, football, cricket, basketball, hockey, tennis, tennis de table, baseball, golf, volley, combat à l'épée, équitation, snowboard, ski, skateboard]
 #end
-
 // a ... #genre game
 #genre_modifier:
 monde ouvert
@@ -75,7 +69,6 @@ tour-par-tour
 sci-fiction
 fantasie
 #end
-
 // a ... #genre game
 #perspective:
 2D
@@ -86,14 +79,12 @@ vue du haut
 isometrique
 vue de côté
 #end
-
 ----------------- CHARACTERS (you play as a...) ----------------- 
 #group_name:
 group
 [faction, gang, famille, bande, horde]
 [organisation, groupe]
 #end
-
 #character:
 alien
 monstre
@@ -150,7 +141,6 @@ plombier
 électricien
 mécanicien
 #end
-
 ----------------- DESCRIPTIONS (you play as a ... character) ----------------- 
 #character_description:
 minuscule
@@ -197,8 +187,6 @@ impatient.e
 trop enthousiaste
 magnifique
 #end
-
-
 #character_description_post:
 voyageant dans le temps
 génétiquement [modifié.e, amélioré.e]
@@ -217,16 +205,13 @@ who (loathes,loathe) [violence, swimming, daylight, robots, humans, aliens]
 with a controversial opinion on [politics, pizza toppings, education, robots, science]
 who (is,are) addicted to [chocolate, pizza, fast-food, cartoons, danger, tea, coffee]
 #end
-
 ----------------- GOALS (you play as a character/group of characters trying to...) ----------------- 
-
 #goal_prefix:
 [trying, attempting] to
 who [desperately,] (wants,want) to
 who will stop at nothing to
 who (needs,need) to
 #end
-
 #goal:
 find the secret to [eternal life, eternal youth, everlasting beauty]
 save the world from @character:npc@
@@ -254,7 +239,6 @@ escape from @character:npc@
 [gain the respect of @character:npc@, win the affection of @character:npc@]
 rescue @character:npc@
 #end
-
 ----------------- SETTINGS (a game set... / that takes place...) ----------------- 
 #setting:
 on <a> @setting_description@ [planet, spaceship, moon, star, rainbow, island, train, boat, mountain, rollercoaster, street, motorbike, bicycle, shipwreck, bouncy castle]
@@ -266,7 +250,6 @@ inside [your head, a computer, a submarine, a dream, a nightmare, a bunker, a du
 during [a great drought, the end of the world, an alien invasion, a massive flood, a volcano eruption, a terrible disaster, the reign of the @character_description@ king, the reign of the @character_description@ queen, the Renaissance, a war, a time of peace, a birthday party, an office party]
 on the back of <a> @character_description@ [elephant, whale, turtle, giant, dolphin]
 #end
-
 Note: describes a location
 #setting_description:
 tiny
@@ -325,7 +308,6 @@ magical
 frozen
 royal
 #end
-
 ----------------- THEMES (a game about...) ----------------- 
 #theme:
 survival
@@ -395,7 +377,6 @@ bravery
 cowardice
 mathematics
 #end
-
 ----------------- MOOD (a ... game) ----------------- 
 #mood:
 unique
@@ -427,9 +408,7 @@ nostalgic
 [strange, quirky, unusual] little
 satirical
 #end
-
 ----------------- WILDCARDS (a game ...) ----------------- 
-
 #wildcard:
 with <a> [hand-drawn, watercolour, graphic-novel, claymation, retro, low-poly, dream-like, abstract, cardboard-cutout] art style
 controlled with [just one button, only two buttons, only the mouse, your voice]
