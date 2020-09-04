@@ -11,6 +11,7 @@ window.onload = function onLoad() {
 		name = category_names[i];
 		categories[name] = getCategory(name);
 	}
+	generate();
 }
 
 function generate() {
