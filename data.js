@@ -40,182 +40,174 @@ data = `
 
 ----------------- GENRE (a ... game) ----------------- 
 #genre:
-platformer
+platformeur
 metroidvania
-endless runner
-shooter
-bullet hell
-sports
-strategy
+runner sans fin
+jeu de tir
+sport
+stratégie
 puzzle
-stealth
-role-playing
+jeu-de-rôle
 roguelike
 dating
-survival
-horror
-card
-rhythm
-adventure
-tower-defense
+survie
+horreur
+cartes
+rhythme
+aventure
+tower defense
 clicker
 hack-and-slash
-educational
-text-adventure
-typing
-sandbox
-programming
-[boat, car, kart, bike, helicopter] racing
-[theme-park, business-management, city-management, farming] simulation
-[fishing, football, cricket, basketball, hockey, tennis, table tennis, baseball, golf, volleyball, fencing, sword fighting, horse riding, snow boarding, skiing, skateboarding]
+educationel
+aventure textuelle
+dactylographie
+bac à sable
+programmation
+jeu de course de [bateau, voiture, kart, vélo, helicoptère]
+simulation de [parc à thème, business, gestion de ville, ferme]
+[pèche, football, cricket, basketball, hockey, tennis, tennis de table, baseball, golf, volley, combat à l'épée, équitation, snowboard, ski, skateboard]
 #end
 
 // a ... #genre game
 #genre_modifier:
-open-world
-turn-based
-sci-fi
-fantasy
+monde ouvert
+tour-par-tour
+sci-fiction
+fantasie
 #end
 
 // a ... #genre game
 #perspective:
 2D
 3D
-first-person
-third-person
-top-down
-isometric
-side-view
+première personne
+trosième personne
+vue du haut
+isometrique
+vue de côté
 #end
 
 ----------------- CHARACTERS (you play as a...) ----------------- 
 #group_name:
 group
-[faction, gang, family, band, horde]
-[organization, league]
+[faction, gang, famille, bande, horde]
+[organisation, groupe]
 #end
 
 #character:
 alien
-monster
-wizard
-witch
-adventurer
+monstre
+magicien
+sorcière
+aventurier
 assassin
-sailor
+marin
 chef
 robot
-ghost
-human
-skeleton
-[duck, goose, penguin, fish, whale, shark]
-[puppy, dog, kitten, cat, mammoth, dinosaur, dragon]
-[bee, ant, fly, mosquito]
-snowman
-scientist
-programmer
-student
+fantôme
+humain
+squelette
+[cannard, oie, pingouin, poisson, baleine, requin]
+[chiot, chien, chaton, chat, mammouth, dinosaure, dragon]
+[abeille, fourmi, mouche, moustique]
+bonhomme de neige
+scientifique
+programmeur
+étudiant
 youtuber
 influencer
-celebrity
-president
-politician
-[businessman, businesswoman]
-emperor
-god
+célébrité
+président
+politicien
+[homme d'affaires, femme d'affaires]
+empereur
+dieu
 ninja
 technophobe
 vampire
 hacker
 zombie
-action figure
-geometric shape
-thief
+forme géométrique
+voleur
 pirate
-artificial intelligence
-[prince, princess, king, queen]
-[grandmother, grandfather]
-[troll, goblin, orc, dwarf]
-knight
-farmer
-astronaut
-pilot
+intelligence artificielle
+[prince, princesse, roi, reine]
+[grand-mère, grand-père]
+[troll, gobelin, orque, nain]
+chevalier
+agriculteur
+astronaute
+pilote
 chocolatier
-archeologist
-doctor
-police officer
-detective
-pyromaniac
-gamer
-tax collector
-plumber
-electrician
-mechanic
+archéologue
+médecin
+agent de police
+détective
+pyromane
+joueur
+percepteur d'impôts
+plombier
+électricien
+mécanicien
 #end
 
 ----------------- DESCRIPTIONS (you play as a ... character) ----------------- 
 #character_description:
-tiny
-gigantic
-lonely
-time-travelling
-evil
-easily-frightened
-extremely [attractive, short, tall, intimidating, clumsy]
-good-looking
-courageous
-anxious
-forgetful
-famous
-shy
-scary-looking
-one-eyed
-bored
-ambitious
-power-hungry
-two-headed
+minuscule
+gigantesque
+solitaire
+facilement effrayés
+extrêmement [séduisant.e, court.e, grand.e, intimidant.e, maladroit.e]
+courageux.se
+anxieux.se
+célèbre
+timide
+effrayant
+borgne
+ennuyeux.se
+ambitieux.se
+avide de pouvoir
+à deux têtes
 wise
-elderly
-greedy
+vieux/vielle
+avide
 invisible
-magical
-blind
-peace-loving
-polite
-worried
-rude
-genetically [modified, enhanced]
-grumpy
-charming
-energetic
-imaginary
-[unfriendly, friendly]
-nervous
-optimistic
-pessimistic
-undead
-quirky
-sarcastic
-well-dressed
-lazy
-talkative
-royal
-cunning
-playful
-penniless
-wealthy
-impatient
-wind-up
-law-[abiding,breaking]
-over-enthusiastic
+magique
+aveugle
+pacifique
+polie
+inquiet
+impoli
+grincheux
+charmant
+énergique
+imaginaire
+[inamical, amical]
+nerveux.se
+optimiste
+pessimiste
+morts-vivants
+excentrique
+sarcastique
+bien habillé
+ludique
+pauvre
+riche
+impatient.e
+trop enthousiaste
+magnifique
 #end
 
 
 #character_description_post:
-from [the future, another planet, another dimension, an alternate reality, a parallel universe]
-with no [friends, money, morals, soul]
-who loves [kittens, puppies, rainbows, cars, spaceships, animals, flowers, long walks, writing, baking, gardening, fishing, fire]
+voyageant dans le temps
+génétiquement [modifié.e, amélioré.e]
+paresseux.se
+bavard
+astucieux.se
+qui vient [du futur, d'une autre planète, d'une autre dimension, d'une realité alternative, d'un univers parallèle]
+qui n'a pas [d'amis, d'argent, de morales, d'âme]
+qui adore [les chats, les poupées, rainbows, cars, spaceships, animals, flowers, long walks, writing, baking, gardening, fishing, fire]
 who (is,are) passionate about [recycling, model trains, education, animal-rights, stamp-collecting, arcade games, board games, tea]
 with [a tragic backstory, an adorable pet, a secret superpower, a secret identity]
 who (can,can) [fly, bend time, turn invisible, teleport, summon spirits]
